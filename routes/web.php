@@ -12,10 +12,10 @@ Route::group(['middleware' => 'auth'], function() {
     })->name('attendance-export');
 });
 
-Route::get('/login', function() {
-    return redirect('admin/login');
-})->name('login');
+// Route::get('/login', function() {
+//     return redirect('admin/login');
+// })->name('login');
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
